@@ -11,17 +11,25 @@
         }
     ],
     "minimum-stability": "stable",
-    "repositories": {
-        "ankitpokhrel/tus-php": {
-            "type": "git",
-            "url": "https://github.com/nijilawrence/tus-php.git",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "ankitpokhrel/tus-php",
+                "version": "2.3.0",
+                "source": {
+                    "url": "https://github.com/nijilawrence/tus-php.git",
+                    "type": "git",
+                    "reference": "drupal-php-8"
+                }
+            }
         }
-    },
+    ],
     "require": {
         "php": ">=7.1.0 || ^8.0",
         "ext-curl": "*",
         "ext-json":"*",
-        "ankitpokhrel/tus-php": "drupal-php-8"
+        "ankitpokhrel/tus-php": "^2.3"
     },
     "autoload": {
         "psr-4": {
