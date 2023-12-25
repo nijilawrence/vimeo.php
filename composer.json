@@ -16,7 +16,7 @@
             "type": "package",
             "package": {
                 "name": "ankitpokhrel/tus-php",
-                "version": "2.3.0",
+                "version": "v2.3.0",
                 "source": {
                     "url": "https://github.com/nijilawrence/tus-php",
                     "type": "git",
@@ -29,7 +29,7 @@
         "php": ">=7.1.0 || ^8.0",
         "ext-curl": "*",
         "ext-json":"*",
-        "ankitpokhrel/tus-php": "2.3.0"
+        "ankitpokhrel/tus-php": "v2.3.0"
     },
     "autoload": {
         "psr-4": {
